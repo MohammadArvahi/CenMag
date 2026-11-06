@@ -1,0 +1,133 @@
+{
+  "seed": 1,
+  "use_gpu": true,
+  "device": 0,
+  "eval_device": 0,
+  "early_stop": {
+    "patience": 0
+  },
+  "federate": {
+    "method": "cenmag_new",
+    "freeze_A": false,
+    "mode": "standalone",
+    "client_num": 3,
+    "sample_client_num": 3,
+    "sample_client_rate": -1.0,
+    "save_freq": 1,
+    "share_local_model": true,
+    "online_aggr": false,
+    "process_num": 1,
+    "unseen_clients_rate": 0.0,
+    "use_ss": false
+  },
+  "personalization": {
+    "local_param": [
+      "lora_B",
+      "classifier",
+      "client_local_magnitude"
+    ]
+  },
+  "data": {
+    "type": "mnli@glue",
+    "matched": true,
+    "splitter": "lda",
+    "splitter_args": [
+      {
+        "alpha": 0.5
+      }
+    ],
+    "consistent_label_distribution": true,
+    "num_labels": 3,
+    "label_list": [
+      "entailment",
+      "neutral",
+      "contradiction"
+    ]
+  },
+  "model": {
+    "type": "FacebookAI/roberta-large@huggingface_llm",
+    "model_num_per_trainer": 1
+  },
+  "llm": {
+    "tok_len": 128,
+    "adapter": {
+      "use": true,
+      "args": [
+        {
+          "adapter_package": "peft",
+          "adapter_method": "lora",
+          "r": 8,
+          "lora_alpha": 16,
+          "lora_dropout": 0.05,
+          "target_modules": [
+            "query",
+            "value"
+          ],
+          "use_dora": true
+        }
+      ]
+    }
+  },
+  "dataloader": {
+    "batch_size": 128
+  },
+  "train": {
+    "local_update_steps": 10,
+    "batch_or_epoch": "batch",
+    "optimizer": {
+      "type": "SGD",
+      "lr": 0.02,
+      "momentum": 0.0,
+      "weight_decay": 0.0
+    },
+    "is_enable_half": false,
+    "data_para_dids": []
+  },
+  "criterion": {
+    "type": "CrossEntropyLoss"
+  },
+  "trainer": {
+    "type": "gluetrainer"
+  },
+  "eval": {
+    "freq": 1,
+    "metrics": [
+      "accuracy"
+    ],
+    "split": [
+      "val"
+    ],
+    "count_flops": false,
+    "best_res_update_round_wise_key": "val_accuracy"
+  },
+  "quantization": {
+    "method": "none"
+  },
+  "cenmag": {
+    "enabled": true,
+    "magnitude_policy": "centered",
+    "full_participation_only": true,
+    "centering_tolerance": 1e-06,
+    "validation_mode": false,
+    "expected_magnitude_tensors": 48,
+    "checkpoint_version": 6,
+    "deterministic_round_seeding": true,
+    "lambda_m": 1.0,
+    "quantization": {
+      "enabled": true,
+      "bits": 4,
+      "type": "nf4",
+      "compute_dtype": "float16",
+      "double_quantization": true,
+      "gradient_checkpointing": true,
+      "bitsandbytes_version": "0.50.0"
+    }
+  },
+  "offline": {
+    "enabled": true,
+    "diagnostics": false
+  },
+  "grad": {
+    "grad_clip": 10.0
+  }
+}

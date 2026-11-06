@@ -1,0 +1,805 @@
+{
+  "schema": 1,
+  "files": {
+    "cache_rebuild.py": {
+      "bytes": 5827,
+      "sha256": "24555b8912a1dd19471f03861e42690098bb6072d635e84de01960267da78c71"
+    },
+    "cenmag.py": {
+      "bytes": 2519,
+      "sha256": "1172c9eded6aa941eb20b08389e8526ef62289e029b1d7c6526f1a5e003250b8"
+    },
+    "configs/local_reference.lock": {
+      "bytes": 7663,
+      "sha256": "d7ea14299cb86664d20fd4034512a3b748ad915e58d4148cfe763b6f815c2c54"
+    },
+    "configs/mnli.json": {
+      "bytes": 2623,
+      "sha256": "c87f8142b8e368746e0041b6b18c51b6d96e323579c077fa696c3d1c48cccdd9"
+    },
+    "configs/operations.json": {
+      "bytes": 453,
+      "sha256": "ce287f0226eb3e6dd744209ea2f9cce532ab3358db0662afb5d44b225d027f63"
+    },
+    "manifests/checkpoint_tensors.json": {
+      "bytes": 24999,
+      "sha256": "6834a14139decfa86c9c85fcf507caad190c6634d863943431d7e5f721aae29e"
+    },
+    "manifests/direct_download_plan.json": {
+      "bytes": 47103,
+      "sha256": "e4af66b27b29140578d153ebbc73aa1ff123c1eaeb3f358da91393861d8e1be4"
+    },
+    "manifests/isolated_runtime.json": {
+      "bytes": 20174,
+      "sha256": "7df9b4f06618147fe2f36dd3907c28480a036c6b951d06b368f260158974fe04"
+    },
+    "manifests/partition_reference.json": {
+      "bytes": 1642,
+      "sha256": "27aa1984909edacf76f4c1d021a9fedd29fdbebab2ce2e282eda42224b5561ff"
+    },
+    "online_prepare.py": {
+      "bytes": 12314,
+      "sha256": "5facafe0f1a031efe855b73df363a6e466a8ead4718bb578791ddc099f9773f8"
+    },
+    "platform_tools/__init__.py": {
+      "bytes": 80,
+      "sha256": "fceb7dd8e48b96dfedd3fb3203a37e466e005fdffd542e793a98e979943f35cd"
+    },
+    "platform_tools/artifacts.py": {
+      "bytes": 9327,
+      "sha256": "7c68d109722cb171091018a3857658ee131000276b035736aec35cc7d5b144bb"
+    },
+    "platform_tools/common.py": {
+      "bytes": 3082,
+      "sha256": "ce3fde440c525e2b948e6933054569275ba9053fc1d193254112131b291875f2"
+    },
+    "platform_tools/detector.py": {
+      "bytes": 5896,
+      "sha256": "22e37153c2c4a9ebb993b6765d6477ce363333b1444b09a41bfa41e58cb53d5b"
+    },
+    "platform_tools/environment.py": {
+      "bytes": 2766,
+      "sha256": "9f49d925f86739a8cacfef2f7d7274a7822bf3457d56ec26d25bb94b9f2c224e"
+    },
+    "platform_tools/identity.py": {
+      "bytes": 2266,
+      "sha256": "72497a8a7c65a08828232000d830947f14a0310deaadbac9fb08a40aab6856ae"
+    },
+    "platform_tools/session.py": {
+      "bytes": 12439,
+      "sha256": "73957c6dd31423ffd85df7e62c1a63159b39272e96817eb94bba71ff8913fa99"
+    },
+    "runtime/boundary.py": {
+      "bytes": 13478,
+      "sha256": "b8924ae1cfdc98c65a8882798d2a633da2be360299394df5df6721c7c17f6b13"
+    },
+    "runtime/data_runtime.py": {
+      "bytes": 2800,
+      "sha256": "4ee9cb48bf125b83364ca089f45d55443ab98e009d2b6dba71943ed5b3114c9a"
+    },
+    "runtime/deep_tools.py": {
+      "bytes": 9847,
+      "sha256": "9575f393d482678c35b4df0b7d99a98f94bb3231949e3fddea11c41cccfbab0b"
+    },
+    "runtime/execute.py": {
+      "bytes": 7299,
+      "sha256": "aa10dd03964e650dc18bed518bdfc4eb8214c2ca6b9a3c59262257876e3c2f51"
+    },
+    "runtime/mnli.py": {
+      "bytes": 3315,
+      "sha256": "d3538a9ce3a8077d4ec28fdf23fc0f1b35650eb504ee13a715bf4bb1ee9d05ea"
+    },
+    "runtime/observability.py": {
+      "bytes": 14130,
+      "sha256": "59e8814da2798d7de4e15cde329457cf2b76e9f16c26461b6df7fc93640d09de"
+    },
+    "runtime/protocol.py": {
+      "bytes": 4048,
+      "sha256": "8c735eadc1d7279946a8de43f14812bcddb13cbe0cb645814136ff723b71d896"
+    },
+    "runtime/public_config.py": {
+      "bytes": 3719,
+      "sha256": "743ca027f629f806476c6c7491b4b93f94103e945ff3c07282d7bf47246e7011"
+    },
+    "runtime/public_run.py": {
+      "bytes": 7020,
+      "sha256": "9a65b2f5e89c5d09b735f8472b10eb7ca8f8d667b5c4c0e05a9dcaf4436e38ba"
+    },
+    "runtime/recovery.py": {
+      "bytes": 11827,
+      "sha256": "fa8b358393f87f8b881494b4923d333da96c6848ba81944ee36dacd95f1a0d44"
+    },
+    "runtime/runner.py": {
+      "bytes": 2301,
+      "sha256": "b8e4c79298e0f709fb720409d2c7f724c60884b694d2f445c0b1c4148387c900"
+    },
+    "runtime/storage_policy.py": {
+      "bytes": 786,
+      "sha256": "c3752ca7d3d9dc05c94124cb4b1c4fc993aeee930664a23e704b29f084895ee1"
+    },
+    "runtime/worker.py": {
+      "bytes": 22817,
+      "sha256": "d1592833af8563f2375a42d35d7c605cc841ee5abcd5668f143af298c3ee4713"
+    },
+    "runtime_setup.py": {
+      "bytes": 3559,
+      "sha256": "14504323f341661b717ec9d5669ab2945db5874723a33006f0ded6e811e7cf99"
+    },
+    "vendor/federatedscope/__init__.py": {
+      "bytes": 476,
+      "sha256": "38faf5f92065a401529040eef961db2afabce3ba9b74ed428093b7b175cdd6a4"
+    },
+    "vendor/federatedscope/cl/__init__.py": {
+      "bytes": 112,
+      "sha256": "8733a14020dd0e56878d467f1d17cd3f9713d3139e08a3c1a744868549c4e1d4"
+    },
+    "vendor/federatedscope/cl/loss/NT_xentloss.py": {
+      "bytes": 1864,
+      "sha256": "a959dfe1006c57c6012c4f66e999727e6063434385c89712cbbd9308459f4981"
+    },
+    "vendor/federatedscope/cl/loss/__init__.py": {
+      "bytes": 164,
+      "sha256": "7b9dc3d09c247f81f0e61738bb8c3a7c274c57374eb3a5d3cc4b4ed4f2ad2bc1"
+    },
+    "vendor/federatedscope/contrib/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "vendor/federatedscope/contrib/configs/__init__.py": {
+      "bytes": 449,
+      "sha256": "6065c6b15b197078b674cd14a8251bf5c842c51afeb761264f1e0bb03bdba57d"
+    },
+    "vendor/federatedscope/contrib/loss/__init__.py": {
+      "bytes": 229,
+      "sha256": "12520d347b00dfda50df0df29c3fe02d1bf62b77dad147bc1a426fb8b9d66bea"
+    },
+    "vendor/federatedscope/contrib/loss/example.py": {
+      "bytes": 412,
+      "sha256": "aa38e8a341a0b6e1626259a2ac563db2aabbb0d06736edeea0690a5aef850c78"
+    },
+    "vendor/federatedscope/contrib/metrics/__init__.py": {
+      "bytes": 229,
+      "sha256": "12520d347b00dfda50df0df29c3fe02d1bf62b77dad147bc1a426fb8b9d66bea"
+    },
+    "vendor/federatedscope/contrib/metrics/example.py": {
+      "bytes": 397,
+      "sha256": "6e52de9020a72004f906cefce844320c8cba4ab6c95453deeda463acb465276f"
+    },
+    "vendor/federatedscope/contrib/metrics/poison_acc.py": {
+      "bytes": 844,
+      "sha256": "8d66dbedafe00d2f7b7ff37dd2c979d75732b744bb602efb27755ec95e98f9da"
+    },
+    "vendor/federatedscope/contrib/model/__init__.py": {
+      "bytes": 229,
+      "sha256": "12520d347b00dfda50df0df29c3fe02d1bf62b77dad147bc1a426fb8b9d66bea"
+    },
+    "vendor/federatedscope/contrib/model/resnet.py": {
+      "bytes": 10482,
+      "sha256": "cfdf95aefd60ee6cf9e3a58dde3c20c4d0f68783058d608299d64e169078adde"
+    },
+    "vendor/federatedscope/contrib/optimizer/__init__.py": {
+      "bytes": 229,
+      "sha256": "12520d347b00dfda50df0df29c3fe02d1bf62b77dad147bc1a426fb8b9d66bea"
+    },
+    "vendor/federatedscope/contrib/optimizer/example.py": {
+      "bytes": 452,
+      "sha256": "c32729b6ad5c0e16dcb26cdc2f1540ffd9a83a7397c5467e2805c791a83d43ae"
+    },
+    "vendor/federatedscope/contrib/scheduler/__init__.py": {
+      "bytes": 229,
+      "sha256": "12520d347b00dfda50df0df29c3fe02d1bf62b77dad147bc1a426fb8b9d66bea"
+    },
+    "vendor/federatedscope/contrib/scheduler/example.py": {
+      "bytes": 515,
+      "sha256": "c43252a682f913c0d6f7e35846e3636f9e9e21a53a7854b26c404e53008cf414"
+    },
+    "vendor/federatedscope/contrib/splitter/__init__.py": {
+      "bytes": 229,
+      "sha256": "12520d347b00dfda50df0df29c3fe02d1bf62b77dad147bc1a426fb8b9d66bea"
+    },
+    "vendor/federatedscope/contrib/splitter/example.py": {
+      "bytes": 897,
+      "sha256": "51b44509ecba8bc7a718a4e2653b0694513f7338ea214e957e2f18f21a24953f"
+    },
+    "vendor/federatedscope/contrib/splitter/fedsam_cifar10_splitter.py": {
+      "bytes": 2605,
+      "sha256": "1e14727e168804a5d7a9d19a03b483a1b2a754cecc0f7064eaf4616a8a026c3f"
+    },
+    "vendor/federatedscope/contrib/trainer/__init__.py": {
+      "bytes": 229,
+      "sha256": "12520d347b00dfda50df0df29c3fe02d1bf62b77dad147bc1a426fb8b9d66bea"
+    },
+    "vendor/federatedscope/contrib/trainer/example.py": {
+      "bytes": 409,
+      "sha256": "f7766dc55ec0e519c146437286b574266de760f48f8610cebb9ebc9c2f3d35e9"
+    },
+    "vendor/federatedscope/contrib/trainer/local_entropy.py": {
+      "bytes": 5030,
+      "sha256": "8214e6a4cf4bd2c2c7d5d1b438d438f687ba389329e1d4bee64742dd779cbf83"
+    },
+    "vendor/federatedscope/contrib/trainer/local_entropy_trainer.py": {
+      "bytes": 420,
+      "sha256": "028d635becf14227dac3cf4017904b9800e097ffa1e5fe610961b8a9916a1e5e"
+    },
+    "vendor/federatedscope/contrib/trainer/sam.py": {
+      "bytes": 6471,
+      "sha256": "e79e3593419d6a5e6c48cc3e8f319cfae67095f078210d451d422111ae8d28dc"
+    },
+    "vendor/federatedscope/contrib/trainer/sam_trainer.py": {
+      "bytes": 337,
+      "sha256": "05e6780318fb6cddd975361eab3e361953e12b1e92b37928beb4365c62ab21a7"
+    },
+    "vendor/federatedscope/contrib/trainer/torch_example.py": {
+      "bytes": 3410,
+      "sha256": "ea8cbe3bb22f5185c452b2469003be040541f30436ee074a138d0fd65427ec44"
+    },
+    "vendor/federatedscope/core/__init__.py": {
+      "bytes": 112,
+      "sha256": "8733a14020dd0e56878d467f1d17cd3f9713d3139e08a3c1a744868549c4e1d4"
+    },
+    "vendor/federatedscope/core/aggregators/__init__.py": {
+      "bytes": 1344,
+      "sha256": "7dc05080a3356a666debd3a8fd1434605f5f95d43ba88d98d901f33f266b8cf5"
+    },
+    "vendor/federatedscope/core/aggregators/aggregator.py": {
+      "bytes": 1683,
+      "sha256": "d9da63d1c1c8c41a261460c5fc110544d1f9427f9cdf241fdd1b1f8a69ea0cad"
+    },
+    "vendor/federatedscope/core/aggregators/asyn_clients_avg_aggregator.py": {
+      "bytes": 3199,
+      "sha256": "7ec554a9fcba8392cc1f2c57c0bc892d90375f2d1b4e6070d43a9d43db0ab957"
+    },
+    "vendor/federatedscope/core/aggregators/bulyan_aggregator.py": {
+      "bytes": 4458,
+      "sha256": "1c2574cdf07657c5b124849aa17df308ebfd5f0c9329205b7e20a6219f3e1e36"
+    },
+    "vendor/federatedscope/core/aggregators/clients_avg_aggregator.py": {
+      "bytes": 5145,
+      "sha256": "48fe745b1cf2f89fb7cf06c253a0651a48c6571e4f1dff774ed1560620e28939"
+    },
+    "vendor/federatedscope/core/aggregators/fedopt_aggregator.py": {
+      "bytes": 1580,
+      "sha256": "5ae846d915f1c1f39a8145492a108dd9e49efb6e83fc322e704cad5318e385b0"
+    },
+    "vendor/federatedscope/core/aggregators/krum_aggregator.py": {
+      "bytes": 3611,
+      "sha256": "2844abbffc5f5061cb4e1774797b656329948b657fe1c74dbfbad86f2da1b6bc"
+    },
+    "vendor/federatedscope/core/aggregators/median_aggregator.py": {
+      "bytes": 2026,
+      "sha256": "f9dc723a52ac755c1cb87be94d3222aecef3ecdae728c553b69c295034aa1106"
+    },
+    "vendor/federatedscope/core/aggregators/normbounding_aggregator.py": {
+      "bytes": 2492,
+      "sha256": "532cc0838168f6392293abf27748a8533cc39041fa61c9d34275f2a6bc5c2935"
+    },
+    "vendor/federatedscope/core/aggregators/server_clients_interpolate_aggregator.py": {
+      "bytes": 1380,
+      "sha256": "2a2fe511e6a2afb2db2a2027299c7c49e9cec5c122287bad1c071ea864baadca"
+    },
+    "vendor/federatedscope/core/aggregators/trimmedmean_aggregator.py": {
+      "bytes": 2368,
+      "sha256": "382116c903e7ee7581d3838b5379006988491c4a42ea42c064703ec2b51a5ebc"
+    },
+    "vendor/federatedscope/core/auxiliaries/ReIterator.py": {
+      "bytes": 467,
+      "sha256": "2a5a8f2edf9c63555c305fe0687851711d533b6589debe5144811cce527047a2"
+    },
+    "vendor/federatedscope/core/auxiliaries/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "vendor/federatedscope/core/auxiliaries/aggregator_builder.py": {
+      "bytes": 5768,
+      "sha256": "b90805ce90015db5827cc208e2e87408d4ae8e57ffd2aa0431851d54b4f17178"
+    },
+    "vendor/federatedscope/core/auxiliaries/criterion_builder.py": {
+      "bytes": 1338,
+      "sha256": "fe87885f4e0b78e9e4772d4c5a1dc54386af3140700757ad913995713d0a7dd1"
+    },
+    "vendor/federatedscope/core/auxiliaries/dataloader_builder.py": {
+      "bytes": 3973,
+      "sha256": "586aa68d831e34bce46fb2cf4f1948cada52830c75f0a9941e68d00ba465c4cc"
+    },
+    "vendor/federatedscope/core/auxiliaries/decorators.py": {
+      "bytes": 727,
+      "sha256": "518b4bc1849c5f75cddc79cc7093e97b3a52cf20bfe941ac45c49c647585a9f9"
+    },
+    "vendor/federatedscope/core/auxiliaries/feat_engr_builder.py": {
+      "bytes": 1034,
+      "sha256": "e9216fcef7c404a1e20be9aa527b42ec48638a0e32cb43623ab5c05ad9100336"
+    },
+    "vendor/federatedscope/core/auxiliaries/logging.py": {
+      "bytes": 10304,
+      "sha256": "1e66f18a1b7ca521c13a39d6e1ef7bfe09bd2c85b5a6f3c7c3a04cccda7f51ff"
+    },
+    "vendor/federatedscope/core/auxiliaries/metric_builder.py": {
+      "bytes": 2795,
+      "sha256": "cbbabaedb201c11eb369d4eea53aee6b224e27d4ab3d13db93a4500a82783357"
+    },
+    "vendor/federatedscope/core/auxiliaries/model_builder.py": {
+      "bytes": 9113,
+      "sha256": "f9706eaaba22321fbd044f67532c7ba53f1970de6a55fa177e8f6cac630be3e7"
+    },
+    "vendor/federatedscope/core/auxiliaries/optimizer_builder.py": {
+      "bytes": 1880,
+      "sha256": "2065cbbd98b78c07297f8311dc2fd7123a80f554e7078d68eb3e1369220a63b4"
+    },
+    "vendor/federatedscope/core/auxiliaries/regularizer_builder.py": {
+      "bytes": 1076,
+      "sha256": "c803c0631261a5947b8204aaa043988bea56365e52f9ff3763e68ddc4b2e417d"
+    },
+    "vendor/federatedscope/core/auxiliaries/sampler_builder.py": {
+      "bytes": 1851,
+      "sha256": "8d9eb59a016bcb30c07d1f142c57abfb38bf539ab99e7b2d961c94278407b441"
+    },
+    "vendor/federatedscope/core/auxiliaries/scheduler_builder.py": {
+      "bytes": 2843,
+      "sha256": "a832e8425965cffbab7347dd48855a029d61ee51376fbb9da26320d623777933"
+    },
+    "vendor/federatedscope/core/auxiliaries/splitter_builder.py": {
+      "bytes": 3479,
+      "sha256": "f06ee35c368c0322b8915096725653cae420a5e26c49b3eaf7ad5db7c3b4c24d"
+    },
+    "vendor/federatedscope/core/auxiliaries/trainer_builder.py": {
+      "bytes": 12216,
+      "sha256": "33fc957238fee845790ec8275e9908a6b3a214234ae54c7fed77df641cfd3bae"
+    },
+    "vendor/federatedscope/core/auxiliaries/utils.py": {
+      "bytes": 5655,
+      "sha256": "2ffd975a3ddcc1e27d57693560446929b2ccf60d6a2a0855af2536b4462f85e5"
+    },
+    "vendor/federatedscope/core/communication.py": {
+      "bytes": 8265,
+      "sha256": "914a9b1ed8418395bac963658e80b694bf1c8988a2e212300bb5c7c79e53ffcc"
+    },
+    "vendor/federatedscope/core/configs/__init__.py": {
+      "bytes": 914,
+      "sha256": "9b42ba7d40da40e92fcaa4c7b264fc5e7828a2cc70e771b35b97f565a801a23c"
+    },
+    "vendor/federatedscope/core/configs/cfg_aggregator.py": {
+      "bytes": 1471,
+      "sha256": "326a2c4226a9b8287dda05a3a8f756b9c13efd490eb692472c5b6321228b5512"
+    },
+    "vendor/federatedscope/core/configs/cfg_asyn.py": {
+      "bytes": 3942,
+      "sha256": "7bf514c820efd4ed9eee7d27b4f516a32864d064d95a6dcc44ba4a8a00cd2186"
+    },
+    "vendor/federatedscope/core/configs/cfg_attack.py": {
+      "bytes": 2000,
+      "sha256": "302a3474f381c4d8bac6e9d6868018c280b01191fe70adf2ea791f86a8689df3"
+    },
+    "vendor/federatedscope/core/configs/cfg_cenmag.py": {
+      "bytes": 5529,
+      "sha256": "1e540f14acd08609115ed2ea6f9da6c4242d39729a60972dd26a08732b4f0554"
+    },
+    "vendor/federatedscope/core/configs/cfg_compression.py": {
+      "bytes": 1388,
+      "sha256": "b312530600e36d3b40bb7203900746096495251e4d745201e9b2b1ef4fcf03a7"
+    },
+    "vendor/federatedscope/core/configs/cfg_data.py": {
+      "bytes": 7786,
+      "sha256": "9dff234e127f4d049f1ec4f7a45383a30014fe90bc81b01a8a55539c2d8312d7"
+    },
+    "vendor/federatedscope/core/configs/cfg_differential_privacy.py": {
+      "bytes": 1160,
+      "sha256": "00215b8abd8262ef78490d39e7142cf06df1f09b7e6f5c1dce838377ff257dc9"
+    },
+    "vendor/federatedscope/core/configs/cfg_evaluation.py": {
+      "bytes": 1454,
+      "sha256": "c1961def905ac6688baf3c6774126c89fbdc6fb764340a0561be519db8c5047c"
+    },
+    "vendor/federatedscope/core/configs/cfg_fl_algo.py": {
+      "bytes": 5773,
+      "sha256": "857713c920c4916379ac5208cf2b815b85325dbc128e60f1cd99000c69d2790e"
+    },
+    "vendor/federatedscope/core/configs/cfg_fl_setting.py": {
+      "bytes": 14063,
+      "sha256": "8400173b9c2bce899e2b48a03c4f1b196c8e155491cd108e87836693716f83fe"
+    },
+    "vendor/federatedscope/core/configs/cfg_hpo.py": {
+      "bytes": 4468,
+      "sha256": "b94b30d2f314527fde246b9ea2db959a02bc76204d7565a2ba102ca361deebb5"
+    },
+    "vendor/federatedscope/core/configs/cfg_llm.py": {
+      "bytes": 3790,
+      "sha256": "f49742c9e260eaa26260081d113475135a605257b6578fb5bbb550fad81a3945"
+    },
+    "vendor/federatedscope/core/configs/cfg_model.py": {
+      "bytes": 2561,
+      "sha256": "b9429b027e010efdf254d8f41fee459e6047675756409908c2c0cfc66333f474"
+    },
+    "vendor/federatedscope/core/configs/cfg_offline.py": {
+      "bytes": 425,
+      "sha256": "11278ec845c9260f4c709ab35d23d1d127403a041d59076ab3a0ff58974dc502"
+    },
+    "vendor/federatedscope/core/configs/cfg_training.py": {
+      "bytes": 5224,
+      "sha256": "a1b169d63e71e02fd4435e2a73c5c3b75f8ac737966f22f203c33704c7d5d79a"
+    },
+    "vendor/federatedscope/core/configs/config.py": {
+      "bytes": 11054,
+      "sha256": "4263fc21dc975d6b852e2e65a24e57cf0fbe1ca3f17ff59e9435535a62de4b11"
+    },
+    "vendor/federatedscope/core/configs/constants.py": {
+      "bytes": 1707,
+      "sha256": "7fcf4bc8ffe9358f3b791fcb1d4675a8876d3ba52cdd8d8e17075cbb0ea224e9"
+    },
+    "vendor/federatedscope/core/configs/yacs_config.py": {
+      "bytes": 24063,
+      "sha256": "566c9f98d0893fc0e1c85a3d7740b1601d654b91ab1ade8667d45ee50fcf23a8"
+    },
+    "vendor/federatedscope/core/data/__init__.py": {
+      "bytes": 427,
+      "sha256": "ce9a2a5c6c0a89314d229ec33d14b00a5b572fce76949109077d085f6e4dc014"
+    },
+    "vendor/federatedscope/core/data/base_data.py": {
+      "bytes": 8355,
+      "sha256": "452570ba5f9a592fccbed67c1578da13dc23d1d7440bcd631c46167d040f822a"
+    },
+    "vendor/federatedscope/core/data/base_translator.py": {
+      "bytes": 10138,
+      "sha256": "a77f0a2a638c03b7072f56e1d80adf87a3868d569b18501dd73a31806e610b6e"
+    },
+    "vendor/federatedscope/core/data/dummy_translator.py": {
+      "bytes": 1962,
+      "sha256": "5d73f2dd7e571e40cc6b8d34c0b58d8a05d5bd6d127a4e76a3158268a9e65bad"
+    },
+    "vendor/federatedscope/core/data/raw_translator.py": {
+      "bytes": 316,
+      "sha256": "d27ee613acd720c0f01337495b1865db0a2d253661b50da8459561aff279bdc8"
+    },
+    "vendor/federatedscope/core/data/utils.py": {
+      "bytes": 32537,
+      "sha256": "a85701126369a7e2bcc43140fee8772792f3209fadf299e43d94f3e7f61e3c60"
+    },
+    "vendor/federatedscope/core/data/wrap_dataset.py": {
+      "bytes": 1031,
+      "sha256": "4c7470474c653b7cb2550732d2060730e05a36972fdc4799c66e16df15f3b8a0"
+    },
+    "vendor/federatedscope/core/fed_runner.py": {
+      "bytes": 41715,
+      "sha256": "2efe96d9e59891d65c35bbcbcece196b0cf1e8bd074ea3ea394acfbd8cec7fd7"
+    },
+    "vendor/federatedscope/core/gRPC_server.py": {
+      "bytes": 588,
+      "sha256": "6ede4c6c0732feac4d1875c6c170063eea579b648983f9d0804916f7d1d00ac5"
+    },
+    "vendor/federatedscope/core/gpu_manager.py": {
+      "bytes": 3261,
+      "sha256": "e751d67fbdf4c5c283d587c9897576d55eec3797dc11e0876220fc4f32e73184"
+    },
+    "vendor/federatedscope/core/message.py": {
+      "bytes": 9529,
+      "sha256": "aac84c6803fb360a863699f595f7a5f51f34e06bda3d45991ec15ac2330e343a"
+    },
+    "vendor/federatedscope/core/monitors/__init__.py": {
+      "bytes": 265,
+      "sha256": "85034e5b4a6f430ffaeb679dbe559042ba703e47ea9999dfe4bb77e4eae32d76"
+    },
+    "vendor/federatedscope/core/monitors/early_stopper.py": {
+      "bytes": 4612,
+      "sha256": "a20e931e46b83fc410d4cf0702f8efd2562da429d5bb664d02e15a2273355aa4"
+    },
+    "vendor/federatedscope/core/monitors/metric_calculator.py": {
+      "bytes": 13539,
+      "sha256": "b5f38ed14172f2d5301cc268605b9c3a6028325ed894391bf7d37c37def29f72"
+    },
+    "vendor/federatedscope/core/monitors/monitor.py": {
+      "bytes": 34234,
+      "sha256": "3b6c9e624cdc8c6ec35b89aabc39f92047ec137b551eaeb021eab0db48c4544f"
+    },
+    "vendor/federatedscope/core/optimizer.py": {
+      "bytes": 2732,
+      "sha256": "8f3de2986bcd701177eb9aa891020b76603e7f59e346cdb83fbe7e9dd64071e6"
+    },
+    "vendor/federatedscope/core/proto/__init__.py": {
+      "bytes": 131,
+      "sha256": "6ed8959ab9068c9e304a21177542c460baefef006b461e1b0390fc1c644df294"
+    },
+    "vendor/federatedscope/core/proto/gRPC_comm_manager_pb2.py": {
+      "bytes": 3900,
+      "sha256": "90e90b57646d47eddbdcedf17315437d27d46502a2870ab9d41c73af9bc7fef4"
+    },
+    "vendor/federatedscope/core/proto/gRPC_comm_manager_pb2_grpc.py": {
+      "bytes": 3901,
+      "sha256": "685b6a2a95cb47bfc00d3c4afe012e07bfc7c115f9afc4261bfcbe9c9a53ca34"
+    },
+    "vendor/federatedscope/core/regularizer/__init__.py": {
+      "bytes": 68,
+      "sha256": "b986fa7b781f6a838a71d04d6005b8a0e557df3befbfb49cb16f3b091167808e"
+    },
+    "vendor/federatedscope/core/regularizer/proximal_regularizer.py": {
+      "bytes": 1094,
+      "sha256": "679eaf1fbc6b89c683e6091934462c43d3cc9a09a82562cd7cec64ba9e5ed863"
+    },
+    "vendor/federatedscope/core/sampler.py": {
+      "bytes": 5611,
+      "sha256": "5937b2ffa67b6dee5a64d43a81d18eec211e3b9c1bafffeddf5f38eeced07ea1"
+    },
+    "vendor/federatedscope/core/secret_sharing/__init__.py": {
+      "bytes": 92,
+      "sha256": "501c3e7d2802cddbb3910668d0876d8d015d447424a9e7776365551556c79192"
+    },
+    "vendor/federatedscope/core/secret_sharing/secret_sharing.py": {
+      "bytes": 3502,
+      "sha256": "6950243d50c874cf639403b14f3deba0faaa4be6f5f3f890bf678c0e9f0dc579"
+    },
+    "vendor/federatedscope/core/splitters/__init__.py": {
+      "bytes": 100,
+      "sha256": "546721bdf0fb0bc22549b57a1e3c14e3ac676be31d5a98664375f0d7c28613a2"
+    },
+    "vendor/federatedscope/core/splitters/base_splitter.py": {
+      "bytes": 805,
+      "sha256": "bb470ecc7337726f85d93b0bf4b18670081e9daa5615fa31ab40166160834bd2"
+    },
+    "vendor/federatedscope/core/splitters/generic/__init__.py": {
+      "bytes": 290,
+      "sha256": "ca300cda9992e01528be743f796388731d371016e1f2037fdfa4c142e692aa94"
+    },
+    "vendor/federatedscope/core/splitters/generic/lda_splitter.py": {
+      "bytes": 1916,
+      "sha256": "e5f8b3e73920cd493861272ad61be7e494ba96eae732f6ac23a7b1601dac5cd8"
+    },
+    "vendor/federatedscope/core/splitters/utils.py": {
+      "bytes": 3375,
+      "sha256": "a074f9c9188d51dac19332b11ba6f36bad516e7a37944f308fdf9df418730c17"
+    },
+    "vendor/federatedscope/core/trainers/__init__.py": {
+      "bytes": 1324,
+      "sha256": "b98aaf69cc59c7ebea34ad6097259283725fa7fb836b2c69338b72e73b83e9e5"
+    },
+    "vendor/federatedscope/core/trainers/base_trainer.py": {
+      "bytes": 1090,
+      "sha256": "39d3f0c887d7341e72e34d88431e43478204dbc71464fe69e5ce031d87ba729e"
+    },
+    "vendor/federatedscope/core/trainers/context.py": {
+      "bytes": 14525,
+      "sha256": "35ef3a86afff3c12a80030be57920f70507bdce08ec421eea041f76c7e1797eb"
+    },
+    "vendor/federatedscope/core/trainers/enums.py": {
+      "bytes": 965,
+      "sha256": "f88ed2ae682c0e3272d30942fe02b575b4b410d8c765185340e92a5f3a00c457"
+    },
+    "vendor/federatedscope/core/trainers/tf_trainer.py": {
+      "bytes": 10261,
+      "sha256": "cc4ed1a3c0a6d4f1238156db1c83e0a92ccd753a93014c4baa6cbe42d69b57f0"
+    },
+    "vendor/federatedscope/core/trainers/torch_trainer.py": {
+      "bytes": 22876,
+      "sha256": "a4135669602ee2fa9d5cf2f562fa31f3339393def7ca57b912312313f9dfdb88"
+    },
+    "vendor/federatedscope/core/trainers/trainer.py": {
+      "bytes": 16557,
+      "sha256": "8a35db69691f3bb8854077752586252848b0cb7cd2344719f51d854155ff2328"
+    },
+    "vendor/federatedscope/core/trainers/trainer_Ditto.py": {
+      "bytes": 13564,
+      "sha256": "9506e310e6eddf3083ada2494b8fc2628e94bf107733bd7b38af71e228203a7e"
+    },
+    "vendor/federatedscope/core/trainers/trainer_FedEM.py": {
+      "bytes": 10922,
+      "sha256": "de8c01fdbd29352adab1543a208d5b1057671c8fe0c16f0b1993a5f65af24b52"
+    },
+    "vendor/federatedscope/core/trainers/trainer_FedRep.py": {
+      "bytes": 3368,
+      "sha256": "9660228f51303539898543075e41d093f634d9fb88ae0ebc5f15712b69b9d411"
+    },
+    "vendor/federatedscope/core/trainers/trainer_fedprox.py": {
+      "bytes": 2036,
+      "sha256": "2e1eca744ef60bb613db99f3f6f0911348751bb68076fef431cdeca40861e225"
+    },
+    "vendor/federatedscope/core/trainers/trainer_multi_model.py": {
+      "bytes": 14528,
+      "sha256": "e79d27c1344f6d7bc0ae3ea0839e8ca0c728c0f87290d961a6f799ef36668e79"
+    },
+    "vendor/federatedscope/core/trainers/trainer_nbafl.py": {
+      "bytes": 6339,
+      "sha256": "1ac487d9c911baefd7e6bfc8b6793146a0cce9fc1ede3e6cfd0168bd25ae7918"
+    },
+    "vendor/federatedscope/core/trainers/trainer_pFedMe.py": {
+      "bytes": 10085,
+      "sha256": "e9c202c101126ff2ea38c13d4ae7cbe3afa6219d6c87fd11666ca7315ec7684e"
+    },
+    "vendor/federatedscope/core/trainers/trainer_simple_tuning.py": {
+      "bytes": 2460,
+      "sha256": "7aff800926b79fa873e96d151b3b41ed3ff711b8616a5122663379a9aaa40b68"
+    },
+    "vendor/federatedscope/core/trainers/utils.py": {
+      "bytes": 2928,
+      "sha256": "1a30a1e8a3ba7e3f8cd0f723c102ba33216dea335507303469350417d803c490"
+    },
+    "vendor/federatedscope/core/workers/__init__.py": {
+      "bytes": 370,
+      "sha256": "a74d060f6393ad301bae7114f12740fb364082d849f92ffed933729c427273be"
+    },
+    "vendor/federatedscope/core/workers/base_client.py": {
+      "bytes": 5813,
+      "sha256": "a272822e1753c76eeea91006ebed191c169e64c68d61362b2ff8c12dab2f368e"
+    },
+    "vendor/federatedscope/core/workers/base_server.py": {
+      "bytes": 3908,
+      "sha256": "c4fc1b319672a7c11c501077d5282ace0eac6774a97cbf65eecc4f29b03c6e04"
+    },
+    "vendor/federatedscope/core/workers/base_worker.py": {
+      "bytes": 1897,
+      "sha256": "27ab434841da1b215d51fee3e46bcc9ab03303e81508da2325e31c9109d95328"
+    },
+    "vendor/federatedscope/core/workers/client.py": {
+      "bytes": 27467,
+      "sha256": "662a67e82ff513aacd5a5b9299ce171bc58ed5b32206fe1a8740027d4850fd45"
+    },
+    "vendor/federatedscope/core/workers/server.py": {
+      "bytes": 47664,
+      "sha256": "6bc95119ff781bf2a5169defc68de361cf42993a4e650d94d253043c1a7714fe"
+    },
+    "vendor/federatedscope/glue/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "vendor/federatedscope/glue/cenmag/__init__.py": {
+      "bytes": 362,
+      "sha256": "c1b57055cb96dff064b50ec2d1f09a51bcbb2c4e2b6f49ef16c0e4905c898531"
+    },
+    "vendor/federatedscope/glue/cenmag/aggregator.py": {
+      "bytes": 36898,
+      "sha256": "0c92dbd45e6bf3a6f2f207c0eaaab61aa3dd5009a5fe7e2e107d94b4d3380326"
+    },
+    "vendor/federatedscope/glue/cenmag/dataset_compat.py": {
+      "bytes": 2569,
+      "sha256": "0fd735d23dcfa7aa0bb7fbd5f908f10060e1fa0e5efafb83596e089e8af6c2ef"
+    },
+    "vendor/federatedscope/glue/cenmag/diagnostics.py": {
+      "bytes": 956,
+      "sha256": "92ba5917de5acb24434ec90bd265da31fbf64e31e750470db896e56c9130f5ae"
+    },
+    "vendor/federatedscope/glue/cenmag/hardware.py": {
+      "bytes": 3777,
+      "sha256": "f13578e802aa03956eae0c3c3220755c8a82c3185fc8b4c1f93c517f56efc0c8"
+    },
+    "vendor/federatedscope/glue/cenmag/magnitude.py": {
+      "bytes": 10139,
+      "sha256": "3227c306932b19f83b41d671c9a6aaa16b1caf4f8e90740a3bf54386b40eb3e2"
+    },
+    "vendor/federatedscope/glue/cenmag/memory.py": {
+      "bytes": 1624,
+      "sha256": "beb43aeceb4fed4a0d842d62c0c944ad326f887ecd8b0c37b513ad94a1a316a4"
+    },
+    "vendor/federatedscope/glue/cenmag/model_utils.py": {
+      "bytes": 9499,
+      "sha256": "e1dca8f936361e7226a1556732cbc723beb0f262a0b4bea19a77f81563d7c53b"
+    },
+    "vendor/federatedscope/glue/cenmag/observability.py": {
+      "bytes": 2740,
+      "sha256": "7923383ed73d54bc38539bbe3e9b4aa574f29abb9147da6d40daa2a81b4a4fff"
+    },
+    "vendor/federatedscope/glue/cenmag/offline.py": {
+      "bytes": 3783,
+      "sha256": "b7393e6cf762f60fc04b73a18a887f806d335f1f2397e2ef4f530a722ddaee16"
+    },
+    "vendor/federatedscope/glue/cenmag/state.py": {
+      "bytes": 46920,
+      "sha256": "defa933bf2ae52ce0ea61f57d2be2d5cdd30605965d4bf8141935af0c412b96f"
+    },
+    "vendor/federatedscope/glue/cenmag/trace.py": {
+      "bytes": 2395,
+      "sha256": "d2c4e3df8dab1ae632ea781876f4916f8a2fd3d10b6967f316638ea3b0e50c90"
+    },
+    "vendor/federatedscope/glue/cenmag/worker.py": {
+      "bytes": 19181,
+      "sha256": "a8f75ac66275f5b2e045a924115d36abc2a8f729f1ce94d2973a6ea410969105"
+    },
+    "vendor/federatedscope/glue/dataloader/__init__.py": {
+      "bytes": 108,
+      "sha256": "25c355f9d3e4ffcd061c500a2867aec1c5a807c13d07e9ef7ed6b4a01884e42e"
+    },
+    "vendor/federatedscope/glue/dataloader/dataloader.py": {
+      "bytes": 2662,
+      "sha256": "7a8b3fdf9c4d00fe1e61efe8ea10b8c9434760abce3a5945b8a181ff33be7f6e"
+    },
+    "vendor/federatedscope/glue/model/__init__.py": {
+      "bytes": 86,
+      "sha256": "7a365076bc3713025fcd9458c9fc33d2b76131850ba63cf49f80b6a223db0ad9"
+    },
+    "vendor/federatedscope/glue/model/adapter_builder.py": {
+      "bytes": 11863,
+      "sha256": "b66c867325d3a3df3b119e7e1799a622d1e048876aa9a0a49e57a05afe10f7ec"
+    },
+    "vendor/federatedscope/glue/model/model_builder.py": {
+      "bytes": 6682,
+      "sha256": "1248ff7bb2a02142ea8952c274e7c94024fdf1c028bc2a059ee5e9bc27a93ae2"
+    },
+    "vendor/federatedscope/glue/trainer/__init__.py": {
+      "bytes": 229,
+      "sha256": "12520d347b00dfda50df0df29c3fe02d1bf62b77dad147bc1a426fb8b9d66bea"
+    },
+    "vendor/federatedscope/glue/trainer/trainer.py": {
+      "bytes": 24755,
+      "sha256": "f5ff85583aa22e0b60a101310ce0acdb12d3a2e9994a540f82ffc25cfdd76994"
+    },
+    "vendor/federatedscope/nlp/__init__.py": {
+      "bytes": 112,
+      "sha256": "8733a14020dd0e56878d467f1d17cd3f9713d3139e08a3c1a744868549c4e1d4"
+    },
+    "vendor/federatedscope/nlp/hetero_tasks/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "vendor/federatedscope/nlp/hetero_tasks/metric/__init__.py": {
+      "bytes": 229,
+      "sha256": "12520d347b00dfda50df0df29c3fe02d1bf62b77dad147bc1a426fb8b9d66bea"
+    },
+    "vendor/federatedscope/nlp/hetero_tasks/metric/cnndm.py": {
+      "bytes": 725,
+      "sha256": "67d8c4a06c1caff8149c11a79c68adc7b1905111badeccd7968b5f127df74d66"
+    },
+    "vendor/federatedscope/nlp/hetero_tasks/metric/msqg.py": {
+      "bytes": 881,
+      "sha256": "54f6b2e4a837584c76f22fe5a5565c76ed3f921fc9180b739135e33cc6cb6912"
+    },
+    "vendor/federatedscope/nlp/hetero_tasks/metric/newsqa.py": {
+      "bytes": 953,
+      "sha256": "04dbd44b0026bb1e2d5bfc6f79450c43b54b541b33146b0085aa8ebbab203f63"
+    },
+    "vendor/federatedscope/nlp/hetero_tasks/metric/squad.py": {
+      "bytes": 20038,
+      "sha256": "8a3616e968a310865aef0c4ed49629bb68f73b77ed3e2f1d5cca85ee03f91b76"
+    },
+    "vendor/federatedscope/nlp/loss/__init__.py": {
+      "bytes": 111,
+      "sha256": "6625f33fddddbf4cf8277cff34960d006b0be1be70b3055e0fc19d324265dc69"
+    },
+    "vendor/federatedscope/nlp/loss/character_loss.py": {
+      "bytes": 1784,
+      "sha256": "0a4433b5047027a02cd467170886578a4ac2a6201ddf1ee07a038186b94e48b9"
+    },
+    "vendor/federatedscope/nlp/loss/label_smooth_loss.py": {
+      "bytes": 1209,
+      "sha256": "80fb86bdd822e8121c90d10aaf34fd150994cf26ad9e463311dba89e38315c8e"
+    },
+    "vendor/federatedscope/nlp/metric/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "vendor/federatedscope/nlp/metric/bleu/__init__.py": {
+      "bytes": 76,
+      "sha256": "f3bd02146603f089519ee5d4fc36a4bac80d2c51baa8ddef57f7712d0f1fb56a"
+    },
+    "vendor/federatedscope/nlp/metric/bleu/bleu.py": {
+      "bytes": 1220,
+      "sha256": "44237d762718e76a0e07c083c62bc553cce52d59076de43413257efe38b10b30"
+    },
+    "vendor/federatedscope/nlp/metric/bleu/bleu_scorer.py": {
+      "bytes": 8599,
+      "sha256": "2a44c2f8855c74c64c46a82a4316f222d902fbb8bac8b17d91674d4e2bb3f7d2"
+    },
+    "vendor/federatedscope/nlp/metric/eval.py": {
+      "bytes": 3199,
+      "sha256": "03d8bc6a89f43298cc01c2669f416e8263dc0e2327095031be2584efcea50297"
+    },
+    "vendor/federatedscope/nlp/metric/meteor/__init__.py": {
+      "bytes": 84,
+      "sha256": "2988443b095966fa9693506387eeaff1f92e844cc66eceed2ebe0373e87c8b21"
+    },
+    "vendor/federatedscope/nlp/metric/meteor/meteor.py": {
+      "bytes": 1798,
+      "sha256": "2ffdfd484280d44a06b000e091f85cc968c396f9b42773216190699d9470b41a"
+    },
+    "vendor/federatedscope/nlp/metric/rouge/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "vendor/federatedscope/nlp/metric/rouge/pyrouge.py": {
+      "bytes": 24492,
+      "sha256": "f24ed5a94888ba2e8d10535d3635d090fc016f9714e92354cf7d36a2d03cdd55"
+    },
+    "vendor/federatedscope/nlp/metric/rouge/utils.py": {
+      "bytes": 4501,
+      "sha256": "0ea22a29be027e438b99220c28ada6ed8e7d0b6b9397a22f7ab0ec1e3b5896a9"
+    },
+    "vendor/federatedscope/register.py": {
+      "bytes": 1790,
+      "sha256": "bd2b6fcedce0e77e5adadc02ae1c4848a84fc027238140a4c8d23713bf351bc2"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "diagnostics": "light",
+  "rolling_states": 10,
+  "session_seconds": 39600,
+  "shutdown_reserve_seconds": 600,
+  "initial_round_estimate_seconds": 600,
+  "checkpoint_estimate_seconds": 30,
+  "export_estimate_seconds": 120,
+  "round_time_safety_factor": 1.5,
+  "free_reserve_bytes": 1073741824,
+  "probe_samples_per_client": 32,
+  "forensic_every": 201,
+  "gradient_sample_every": 10,
+  "storage_budget_bytes": null,
+  "retained_event_packages": 2
+}

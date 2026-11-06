@@ -1,0 +1,76 @@
+{
+  "partition_seed": 12345,
+  "alpha": 0.5,
+  "labels": {
+    "0": "entailment",
+    "1": "neutral",
+    "2": "contradiction"
+  },
+  "source_splits": [
+    "train",
+    "validation_matched"
+  ],
+  "test_used": false,
+  "clients": {
+    "1": {
+      "train": {
+        "count": 179253,
+        "indices_sha256": "985ef528fe05763ec3e0d3d6ac9fe3d6de83fa627bfdc67e98a46a34819532ac",
+        "class_counts": [
+          98541,
+          19681,
+          61031
+        ]
+      },
+      "val": {
+        "count": 4587,
+        "indices_sha256": "c2dfd7dde6f7e6bc903a418ad1ac4a14a9e76e4d8a969b6df0ad15dc54f462f5",
+        "class_counts": [
+          2619,
+          470,
+          1498
+        ]
+      }
+    },
+    "2": {
+      "train": {
+        "count": 136298,
+        "indices_sha256": "5abf3e1000bf16b03249dde87d39ec16cc46e47b3a22f41e2582440f9244fe42",
+        "class_counts": [
+          1906,
+          64609,
+          69783
+        ]
+      },
+      "val": {
+        "count": 3304,
+        "indices_sha256": "35f7ee71c24ceb2c206e748b977886d5c4b0e6908812f0963b540446fc6a9e02",
+        "class_counts": [
+          51,
+          1541,
+          1712
+        ]
+      }
+    },
+    "3": {
+      "train": {
+        "count": 77151,
+        "indices_sha256": "adfe960791b3e5e2f996e9aaa7b0e803643ad0e48731dea0e2d44510653771a7",
+        "class_counts": [
+          30452,
+          46610,
+          89
+        ]
+      },
+      "val": {
+        "count": 1924,
+        "indices_sha256": "ea6d6f4fa2a7aacdddf7eb495d725d694edcc476405e0caffe6f8bd4297ce082",
+        "class_counts": [
+          809,
+          1112,
+          3
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+CenMag
+Copyright 2026 CenMag contributors
+
+This product includes software developed as part of the FedSA-LoRA research
+codebase (https://github.com/Pengxin-Guo/FedSA-LoRA), which is itself based on
+FederatedScope (https://github.com/alibaba/FederatedScope).
+
+CenMag-specific modifications implement center-residual magnitude ownership,
+personalized state management, aggregation, checkpointing, and verification
+for federated QDoRA. Upstream attribution notices in source files are retained.
